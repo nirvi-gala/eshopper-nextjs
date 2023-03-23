@@ -18,7 +18,8 @@
     "prettier": "prettier --write .",
     "prepare": "husky install",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "generate": "node ./tools/generate.mjs"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -49,9 +50,12 @@
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.3.0",
+    "create-index": "^2.6.0",
     "cross-env": "^7.0.3",
     "eslint-plugin-storybook": "^0.6.11",
+    "generate-template-files": "^3.2.1",
     "husky": "^8.0.3",
+    "open-editor": "^4.0.0",
     "prettier": "^2.8.4",
     "webpack": "^5.76.1"
   }
